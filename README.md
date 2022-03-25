@@ -20,3 +20,13 @@ The second parameter may be a string or a proc. If msg is a String, it will be u
 `assert_equal( expected, actual, failure_message = nil )`
 
 Ensures if expected is equal to actual. An optional failure message may be provided as the final argument.
+
+The first parameter can be a result and the second parameter can be a proc.
+
+## Booleans
+
+In Ruby, only false and nil are **false** everything else is **true**.
+
+## Nil
+
+**nil** is a special value that indicates **the absence of a value** – it is Ruby’s way of referring to “nothing”. An example of when you will encounter the nil object is when you ask for something that doesn’t exist or cannot be found.

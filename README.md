@@ -62,3 +62,11 @@ In Ruby, only false and nil are **false** everything else is **true**.
 > string[7..9]
 
 - strings are unique objects, therefore their 'object_id' are the same.
+
+## Symbols
+
+- two variables with the same content are the same symbol, therefore their have the same object_id.
+
+- method names are internally stored as symbols.
+
+- respond_to? is a useful method to know when a method is applied to a object.

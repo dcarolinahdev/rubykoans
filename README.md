@@ -90,3 +90,13 @@ if you try to access from element on index my_array.length, the result is empty,
 - :unshift method appends elements passed in as arguments to the front of the original array. It is one of the methods in Ruby that changes the original array.
 
 - :shift method removes the first element of an array and returns the removed element. If an array is empty and the shift() method is called on it, the method returns nil.
+
+## Array assignment 
+
+- in parallel assignment, if there are extra values, these are not assigned.
+
+if you use the splat_operator, these extra values are assigned in an array.
+
+if you get too few values, corresponding values are assigned to nil.
+
+- you can swapping values with parallel assignment.

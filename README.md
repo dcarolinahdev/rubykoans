@@ -100,3 +100,11 @@ if you use the splat_operator, these extra values are assigned in an array.
 if you get too few values, corresponding values are assigned to nil.
 
 - you can swapping values with parallel assignment.
+
+## Objects
+
+- All in Ruby are objects, and every object has different id.
+
+- :inspect method can return a string that describes the object in an understandable way.
+
+- :clone method creates a different object.

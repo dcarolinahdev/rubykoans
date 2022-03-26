@@ -70,3 +70,23 @@ In Ruby, only false and nil are **false** everything else is **true**.
 - method names are internally stored as symbols.
 
 - respond_to? is a useful method to know when a method is applied to a object.
+
+## Arrays
+
+- the operator << can add an element to the end of an array.
+
+- when an array is accessed with positive index it starts from left to right from zero, otherwise it starts from the right from -1.
+
+- it may be useful to access the first and last elements of an array with :first and :last methods.
+
+- you can use the `my_array[a, b]` syntax to print my_array from element "a" (read 2nd observation) to a maximum number of "b" elements if they exist.
+
+if you try to access from element on index my_array.length, the result is empty, but if you try to access from a higher index, the result is nil.
+
+- you can create a range (or convert it to an array) with a two points syntax that includes at most the parameter with the second index, or with a three points syntax without including it.
+
+- you can push and element to last position, and pop it with the methods :push and :pop.
+
+- :unshift method appends elements passed in as arguments to the front of the original array. It is one of the methods in Ruby that changes the original array.
+
+- :shift method removes the first element of an array and returns the removed element. If an array is empty and the shift() method is called on it, the method returns nil.

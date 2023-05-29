@@ -1,4 +1,4 @@
-# rb_rubykoans
+# Rubykoans
 
 ## Versions
 
